@@ -22,3 +22,5 @@ RUN mkdir service \
   && mkdir postgresql \
 
 VOLUME ["/data", "/var/log/postgresql", "/etc/postgresql"]
+
+CMD ["postgres"]
